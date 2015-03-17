@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "baconjs": "^0.7.53",
     "browserify": "~9.0.3",
-    "local-storage": "^1.4.1"
+    "local-storage": "^1.4.1",
+    "react": "^0.13.1",
+    "underscore": "^1.8.2"
   },
   "devDependencies": {
     "watchify": "~2.4.0"
