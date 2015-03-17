@@ -1,0 +1,16 @@
+{
+  "name": "counter-app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "browserify": "~9.0.3",
+    "local-storage": "^1.4.1"
+  },
+  "devDependencies": {
+    "watchify": "~2.4.0"
+  },
+  "scripts": {
+    "build": "browserify src/app.js -o build/app.js",
+    "watch": "watchify src/app.js -o build/app.js --debug --verbose"
+  }
+}
